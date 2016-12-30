@@ -1,4 +1,12 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "typescript.check.workspaceVersion": false
+    "typescript.check.workspaceVersion": false,
+    "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/*.map": true,
+    "**/app/**/*.js": true
+  }
 }
